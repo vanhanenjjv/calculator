@@ -1,6 +1,6 @@
 import express from 'express'
 
-import subtractRouter from './routes/subtract'
+import subtractRouter from './routes/subtract.js'
 
 const PORT = 8080
 
