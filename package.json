@@ -2,10 +2,11 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/app.ks",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./src/app.js"
+    "start": "node ./src/index.js",
+    "test": "playwright test"
   },
   "keywords": [],
   "author": "",
