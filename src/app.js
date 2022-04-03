@@ -1,6 +1,6 @@
 import express from 'express'
 
-import multiply from "./routes/multiply";
+import multiply from "./routes/multiply.js";
 
 const PORT = 8080
 
