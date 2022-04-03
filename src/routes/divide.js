@@ -9,3 +9,5 @@ router.post('/', (req, res) => {
     result: a / b
   })
 })
+
+export default router

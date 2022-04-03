@@ -1,6 +1,6 @@
 import express from 'express'
 
-import divide from './routes/divide'
+import divide from './routes/divide.js'
 
 const PORT = 8080
 
