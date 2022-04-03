@@ -1,15 +1,19 @@
-import express from 'express'
+import express from "express";
 
-const PORT = 8080
+import { addRouter } from "./routes/add/index.js";
 
-const server = express()
+const PORT = 8080;
 
-server.use(express.json())
+const server = express();
 
-server.get('/', (req, res) => {
-  res.send('Hello, world!')
-})
+server.use(express.json());
+
+server.get("/", (req, res) => {
+  res.send("Hello, world!");
+});
+
+server.use("/add", addRouter);
 
 server.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`)
-})
+  console.log(`Listening on port ${PORT}`);
+});
